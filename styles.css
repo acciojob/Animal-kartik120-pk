@@ -1,1 +1,35 @@
 /*  your css code here. If applicable */
+
+/* Main container for the photos */
+#animal-photos {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Styling for the heading */
+#photo-heading {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Styling for each animal photo */
+.animal-photo {
+    display: inline-block;
+    margin: 15px;
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect for the photos */
+.animal-photo:hover {
+    transform: scale(1.05);
+}
+
+/* Styling for the images */
+.animal-photo img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
